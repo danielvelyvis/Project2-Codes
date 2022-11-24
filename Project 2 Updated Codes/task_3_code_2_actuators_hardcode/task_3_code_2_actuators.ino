@@ -1,8 +1,3 @@
-// Code by Abhishek M
-
-// define the two IR sensor inputs pins
-
-
 //using the L298N, define the MOTOR in1 and in2 of the board
 int ENA = 10;
 int motor1pin1 = 9;
