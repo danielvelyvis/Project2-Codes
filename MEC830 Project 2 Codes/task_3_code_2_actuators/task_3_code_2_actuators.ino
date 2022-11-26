@@ -53,11 +53,6 @@ void loop() {
   ultrasonic();
   if (distance1 > max_distance) {
     forward_count();
-
-    if (counter == count_max) {
-      FINISH();
-      exit(0);
-    }
   }
   else {
 
